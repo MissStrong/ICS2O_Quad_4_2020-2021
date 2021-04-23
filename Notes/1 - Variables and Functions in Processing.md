@@ -27,9 +27,12 @@ Functions have a name and are followed by a pair of parentheses. When a function
 
 There are five functions in the code for the default sketch: `setup()`, `createCanvas()`, `background()`, `draw()`, and `ellipse()`.
 
-`setup()` and `draw()` are customozable functions. Depending on what we want our sketch to look like, we would put different commands inside the curly braces.
+`setup()` and `draw()` are customozable functions. We customzie them so that our sketch to looks and does exactly what we want. For these functions, we use the **keyword** `function` followed by the name of the function with the parentheses, and place the commands inside the curly braces. The opening curly brace `{` is on the same line as the function name and the closing curly brace `}` is on a line on is own. The commands inside begin with one tab space. Indenting is a convention in most programming language that makes code easier to read.
 
-`createCanvas()`, `background()`, and `ellipse()` are not customizable. `createCanvas()` creates the canvas for our sketch to go on and the parameters are the dimensions. `background()` changes the background colour of the canvas and its parameters represent the colour. `ellipse()` draws and ellipse (a round shape resembling a stretched circle) and its parameters are the coordinates and size.
+`createCanvas()`, `background()`, and `ellipse()` are not customizable. 
+* `createCanvas()` creates the canvas for our sketch to go on and the parameters are the dimensions. 
+* `background()` changes the background colour of the canvas and its parameters represent the colour. 
+* `ellipse()` draws and ellipse (a round shape resembling a stretched circle) and its parameters are the coordinates and size.
 
 
 ### Line Comments
