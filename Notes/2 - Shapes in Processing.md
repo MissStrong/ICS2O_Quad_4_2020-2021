@@ -44,5 +44,7 @@ Here are a few other functions that draw shapes.
     *  `HALF_PI` = 90° (the bottom-most point of the circle/ellipse)
     *  `PI` = 180° (left-most point of the circle/ellipse)
     *  `-HALF_PI` = -90° (the top-most point of the circle/ellipse)
-  * Draws from the starting point (in radians) counterclockwise to the stopping point (in radians)  
+  * Draws from the starting point (in radians) counterclockwise to the stopping point (in radians) 
+![](../Images/Arcs.png) 
   * Takes six parameters: x1, y1, width, height, start, stop
+
