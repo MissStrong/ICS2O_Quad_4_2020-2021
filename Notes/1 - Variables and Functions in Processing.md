@@ -10,7 +10,7 @@ Let's figure out what these variables and functions are.
 
 Variables are values that can vary. In math they are usually represented with symbols such as `x` whereas in computer science they are usually represented with descriptive words.
 
-There are four variables in the code for the default sketch: `windowHeight`, `windowWidth`, `mouseX`, and `mouseY`.
+There are four variables in the code for the default sketch: `windowWidth`, `windowHeight`, `mouseX`, and `mouseY`.
 
 `windowHeight` and `windowWidth` are the dimensions of the canvas window. These dimensions will depend on the size of your computer screen.
 
@@ -21,7 +21,9 @@ Whenever we want to see the value of a variable, we can **print** it to the **co
 
 ### Functions
 
-A function takes an input and performs a sequence of steps to give an output. They have a name and are followed by a pair of parentheses. When a function is **called**, the inputs are placed inside the parentheses. The names of the inputs are called **parameters** and the values of the parameters are called **arguments**.
+A function takes an input and performs a sequence of steps to give an output. In math they are usually represented with symbols such as `f` whereas in computer science they are usually represented with descriptive words. In both math and computer science, functions use parentheses to store their inputs.
+
+Functions have a name and are followed by a pair of parentheses. When a function is **called**, the inputs are placed inside the parentheses. The names of the inputs are called **parameters** and the values of the parameters are called **arguments**.
 
 There are five functions in the code for the default sketch: `setup()`, `createCanvas()`, `background()`, `draw()`, and `ellipse()`.
 
