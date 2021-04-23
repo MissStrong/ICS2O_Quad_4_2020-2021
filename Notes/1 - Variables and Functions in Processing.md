@@ -42,12 +42,12 @@ They can provide explanations and reminders for us so that our code is easier to
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight); //  Creates the canvas to be the maximum size 
-	background(100); // Makes the background light grey
+  createCanvas(windowWidth, windowHeight); //  Creates the canvas to be the maximum size 
+  background(100); // Makes the background light grey
 }
 
 function draw() {
-	ellipse(mouseX, mouseY, 20, 20); // Draws little white circles wherever the mouse moves to
+  ellipse(mouseX, mouseY, 20, 20); // Draws little white circles wherever the mouse moves to
 }
 
 ```
