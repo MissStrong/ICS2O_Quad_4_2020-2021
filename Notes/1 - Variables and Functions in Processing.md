@@ -16,9 +16,6 @@ There are four variables in the code for the default sketch: `windowWidth`, `win
 
 `mouseX` and `mouseY` are the coordinates of current location of your mouse cursor on the canvas. We'll learn more about coordinates later on.
 
-Whenever we want to see the value of a variable, we can **print** it to the **console**, which is the black window located at the bottom of the screen.
-
-
 ### Functions
 
 A function takes an input and performs a sequence of steps to give an output. In math they are usually represented with symbols such as `f` whereas in computer science they are usually represented with descriptive words. In both math and computer science, functions use parentheses to store their inputs.
@@ -33,7 +30,7 @@ For these functions, we use the **keyword** `function` followed by the name of t
 
 `createCanvas()`, `background()`, and `ellipse()` are not customizable. 
 * `createCanvas()` creates the canvas for our sketch to go on and the parameters are the dimensions. 
-* `background()` changes the background colour of the canvas and its parameters represent the colour. 
+* `background()` changes the background colour of the canvas and its parameters represent the colour. We'll learn about colours later on.
 * `ellipse()` draws and ellipse (a round shape resembling a stretched circle) and its parameters are the coordinates and size.
 
 
