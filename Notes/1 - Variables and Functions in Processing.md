@@ -46,7 +46,7 @@ function setup() {
 }
 
 function draw() {
-  ellipse(mouseX, mouseY, 20, 20); // Draws little white circles wherever the mouse moves to
+  ellipse(mouseX, mouseY, 20, 20); // Draws little circles wherever the mouse moves
 }
 
 ```
