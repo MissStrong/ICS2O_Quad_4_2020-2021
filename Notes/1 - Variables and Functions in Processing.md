@@ -12,7 +12,7 @@ Variables are values that can vary. In math they are usually represented with sy
 
 There are four variables in the code for the default sketch: `windowWidth`, `windowHeight`, `mouseX`, and `mouseY`.
 
-`windowHeight` and `windowWidth` are the dimensions of the canvas window. These dimensions will vary depending on the size of your computer screen.
+`windowHeight` and `windowWidth` are the dimensions of the canvas window. These dimensions will vary depending on the size of your computer screen and whether you have your browser in full screen mode.
 
 `mouseX` and `mouseY` are the coordinates of current location of your mouse cursor on the canvas. We'll learn more about coordinates later on.
 
@@ -50,3 +50,11 @@ function draw() {
 }
 
 ```
+
+### print()
+
+The `print()` function is useful for looking at what specific values are being stored in a variable. For example, if we want to know the exact size of the canvas, we can use `print(windowHeight);` and `print(windowWidth);`. We would put these commands inside the body of the `setup()` function so that it runs only once. These values get printed to the **console**, which is a window that pops up at the bottom of your screen.
+
+![](../Images/Print_Console.png)
+
+In this case, we can see that the dimensions of the canvas are 1440 pixels by 771 pixels.
