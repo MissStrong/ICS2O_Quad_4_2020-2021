@@ -44,6 +44,5 @@ Here are a few other functions that draw shapes.
     *  `PI` = 180° (semicircle)
     *  `HALF_PI` = 90° (quarter of a circle)
     *  `QUARTER_PI` = 45° (eight of a circle)
-  * If you let start be 0, then you can let stop be any of the four constants above to get the exact portion you want
+  * Needs a starting point and stopping point. `0` or `2 * PI` is the highest point of the circle and `PI` is the lowest point of the circle.
   * Takes six parameters: x1, y1, x2, y2, start, stop
- 
