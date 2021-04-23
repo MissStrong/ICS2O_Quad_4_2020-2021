@@ -26,7 +26,7 @@ There are five functions in the code for the default sketch: `setup()`, `createC
 
 `setup()` and `draw()` are customozable functions. We customzie them so that our sketch to looks and does exactly what we want. The difference between them is that `setup()` is automatically called once at the beginning whereas `draw()` is automatically called 60 times per second.
 
-For these functions, we use the **keyword** `function` followed by the name of the function with the parentheses, and place the commands inside the curly braces. The opening curly brace `{` is on the same line as the function name and the closing curly brace `}` is on a line on is own. The commands inside begin with one tab space. Indenting is a convention in most programming language that makes code easier to read.
+For these functions, we use the **keyword** `function` followed by the name of the function with the parentheses, and place the commands inside the curly braces. The opening curly brace `{` is on the same line as the function name and the closing curly brace `}` is on a line on is own. The section inside the curly braces is called the **body** and the commands in the body begin with one tab space. Indenting is a convention in most programming language that makes code easier to read.
 
 `createCanvas()`, `background()`, and `ellipse()` are not customizable. 
 * `createCanvas()` creates the canvas for our sketch to go on and the parameters are the dimensions. 
