@@ -1,6 +1,6 @@
 ## Variables and Functions in Processing
 
-When you go to [openprocessing.org](openprocessing.org), this is the code for the default sketch:
+When you go to [https://openprocessing.org/sketch/create](https://openprocessing.org/sketch/create), this is the code for the default sketch:
 
 ![](../Images/Default_Sketch.png)
 
