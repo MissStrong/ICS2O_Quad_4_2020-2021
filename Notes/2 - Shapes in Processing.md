@@ -38,7 +38,7 @@ Here are a few other functions that draw shapes.
   * Takes four parameters: x1, y1, x2, y2
 * `arc()`
   * Draws a portion of a circle
-  * The startig point is (x1, y1) and the stopping point is (x2, y2)
+  * The center of the circle is (x1, y1) and the radius is the distance from (x1, x1) to (x2, y2).
   * To measure the portion of the circle, the radian system is used
     *  `2 * PI` = 360° (full circle)
     *  `PI` = 180° (semicircle)
