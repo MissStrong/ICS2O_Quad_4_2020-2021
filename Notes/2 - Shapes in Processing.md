@@ -40,10 +40,10 @@ Here are a few other functions that draw shapes.
   * Draws a portion of a circle
   * The startig point is (x1, y1) and the stopping point is (x2, y2)
   * To measure the portion of the circle, the radian system is used
-    *  2 * PI = 360° (full circle)
-    *  PI = 180° (semicircle)
-    *  HALF_PI = 90° (quarter of a circle)
-    *  QUARTER_PI = 45° (eight of a circle)
+    *  `2 * PI` = 360° (full circle)
+    *  `PI` = 180° (semicircle)
+    *  `HALF_PI` = 90° (quarter of a circle)
+    *  `QUARTER_PI` = 45° (eight of a circle)
   * If you let start be 0, then you can let stop be any of the four constants above to get the exact portion you want
   * Takes six parameters: x1, y1, x2, y2, start, stop
  
