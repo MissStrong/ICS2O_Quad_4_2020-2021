@@ -10,7 +10,7 @@ In math, 2-dimensional coordinates can be graphed on a Cartesian Plane like this
 
 ![](../Images/Cartesian_Plane.jpg)
 
-In computer science, we don't use the Cartesian plane for coordinates. Instead, the coordinate system we use looks like this:
+In computer science, we usually don't use the Cartesian plane for coordinates. Instead, the coordinate system we use looks like this:
 
 ![](../Images/Coordinate_Plane.jpg)
 
