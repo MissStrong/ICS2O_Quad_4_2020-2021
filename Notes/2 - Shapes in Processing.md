@@ -37,12 +37,12 @@ Here are a few other functions that draw shapes.
   * The startig point is (x1, y1) and the stopping point is (x2, y2)
   * Takes four parameters: x1, y1, x2, y2
 * `arc()`
-  * Draws a portion of a circle
-  * The center of the circle is (x1, y1) and the radius is the distance from (x1, x1) to (x2, y2).
-  * To measure the portion of the circle, the radian system is used
+  * Draws a portion of a ellipse
+  * The center of the ellipse is (x1, y1)
+  * To measure the portion of the circle/ellipse, the radian system is used
     *  `2 * PI` = 360° (full circle)
     *  `PI` = 180° (semicircle)
     *  `HALF_PI` = 90° (quarter of a circle)
     *  `QUARTER_PI` = 45° (eight of a circle)
-  * Needs a starting point and stopping point. `0` or `2 * PI` is the left-most point of the circle and `PI` is the right-most point of the circle.
-  * Takes six parameters: x1, y1, x2, y2, start, stop
+  * Needs a starting point and stopping point. `0` or `2 * PI` is the left-most point of the circle/ellipse and `PI` is the right-most point of the circle/ellipse.
+  * Takes six parameters: x1, y1, width, height, start, stop
