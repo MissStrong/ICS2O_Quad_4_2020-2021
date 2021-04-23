@@ -40,9 +40,9 @@ Here are a few other functions that draw shapes.
   * Draws a portion of a ellipse
   * The center of the ellipse is (x1, y1)
   * To measure the portion of the circle/ellipse, the radian system is used
-    *  `2 * PI` = 360° (full circle)
-    *  `PI` = 180° (semicircle)
-    *  `HALF_PI` = 90° (quarter of a circle)
-    *  `QUARTER_PI` = 45° (eighth of a circle)
-  * Needs a starting point and stopping point. `0` or `2 * PI` is the right-most point of the circle/ellipse and `PI` is the left-most point of the circle/ellipse.
+    *  `0` (right-most point of the circle/ellipse)
+    *  `HALF_PI` = 90° (the bottom-most point of the circle/ellipse)
+    *  `PI` = 180° (left-most point of the circle/ellipse)
+    *  `-HALF_PI` = -90° (the top-most point of the circle/ellipse)
+  * Draws from the starting point (in radians) counterclockwise to the stopping point (in radians)  
   * Takes six parameters: x1, y1, width, height, start, stop
