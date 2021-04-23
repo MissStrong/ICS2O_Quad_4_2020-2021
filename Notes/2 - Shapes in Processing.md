@@ -34,7 +34,7 @@ Here are a few other functions that draw shapes.
   * Takes six parameters: x1, y1, x2, y2, x3, y3
 * `line()` 
   * Draws a line
-  * The startig point is (x1, y1) and the stopping point is (x2, y2)
+  * The starting point is (x1, y1) and the stopping point is (x2, y2)
   * Takes four parameters: x1, y1, x2, y2
 * `arc()`
   * Draws a portion of a ellipse
