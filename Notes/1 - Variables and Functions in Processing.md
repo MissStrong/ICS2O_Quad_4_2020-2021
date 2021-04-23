@@ -12,7 +12,7 @@ Variables are values that can vary. In math they are usually represented with sy
 
 There are four variables in the code for the default sketch: `windowWidth`, `windowHeight`, `mouseX`, and `mouseY`.
 
-`windowHeight` and `windowWidth` are the dimensions of the canvas window. These dimensions will depend on the size of your computer screen.
+`windowHeight` and `windowWidth` are the dimensions of the canvas window. These dimensions will vary depending on the size of your computer screen.
 
 `mouseX` and `mouseY` are the coordinates of current location of your mouse cursor on the canvas. We'll learn more about coordinates later on.
 
