@@ -87,7 +87,7 @@ function preload() {
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	imageMode(CENTER);
-	image(doge, windowWidth/2, windowHeight/2, windowWidth, windowHeight; // takes up the entire canvas
+	image(doge, windowWidth/2, windowHeight/2, windowWidth, windowHeight); // takes up the entire canvas
 }
 ```
 
