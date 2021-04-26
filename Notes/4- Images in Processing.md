@@ -76,3 +76,22 @@ function setup() {
 Here is the result:
 
 ![](../Images/Doge4.png)
+
+We can also make the image take up the entire canvas. Since the dimensions of the canvas don't have the same ratio as the dimensions of the image, it will look distorted though.
+
+```js
+function preload() {
+  doge = loadImage("doge.png")
+}
+
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+	imageMode(CENTER);
+	image(doge, windowWidth/2, windowHeight/2, windowWidth, windowHeight; // takes up the entire canvas
+}
+```
+
+Here is the result:
+
+![](../Images/Doge5.png)
+
