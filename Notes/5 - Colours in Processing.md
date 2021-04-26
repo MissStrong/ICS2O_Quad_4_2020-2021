@@ -70,7 +70,7 @@ Here is the result:
 
 ![](../Images/Colour3.png)
 
-Just like we can display images based on the coordinates of the center of the image, we can also display shapes based on the center of the image. We can use `rectMode(CENTER)` and `ellipseMode(CENTER)` to do this. 
+Just like we can display images based on the coordinates of the center of the image, we can also display shapes based on the center of the image. We can use `rectMode(CENTER)` to do this. There is also a function called `ellipseMode()` that can take arguments such as `CORNERS` to change the default behaviour.
 
 We can also use different colours for outlines and interiors of different shapes. All we have to do is call `stroke()` or `fill()` again with a new colour, which **overrides** the instructions from previous function call.
 
@@ -87,7 +87,6 @@ function setup() {
   stroke(255, 255, 0); // overrides the previous stroke() function
   fill(255, 192, 203); // overrides the previous fill() function
   
-  ellipseMode(CENTER); // all new rectangles will be placed based on their center coordinate
   ellipse(windowWidth/2, windowHeight/2, 300, 300);
 }
 ```
