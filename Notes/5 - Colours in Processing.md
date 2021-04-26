@@ -75,7 +75,7 @@ If we want the outline or interior to be transparent, we can use `noStroke()` or
 ```js
 function setup() {
   createCanvas(windowWidth, windowHeight);
-	background(100); // makes the background grey
+  background(100); // makes the background grey
   stroke(128, 0, 128);
   strokeWeight(5);
   noFill(); // makes the interior transparent
