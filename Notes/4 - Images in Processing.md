@@ -10,7 +10,7 @@ Next, we use the `image()` function  to display the image onto our canvas. The 
 
 ```js
 function preload() {
-  doge = loadImage("doge.png") // doge.png is the name of the image file
+  doge = loadImage("doge.png"); // doge.png is the name of the image file
 }
 
 function setup() {
@@ -27,7 +27,7 @@ If we want to display the image in the center of the canvas instead of the
 
 ```js
 function preload() {
-  doge = loadImage("doge.png") // doge.png is the name of the image file
+  doge = loadImage("doge.png"); // doge.png is the name of the image file
 }
 
 function setup() {
@@ -45,7 +45,7 @@ If we want to change the size of the image by scaling it up or down, we can make
 
 ```js
 function preload() {
-  doge = loadImage("doge.png")
+  doge = loadImage("doge.png");
 }
 
 function setup() {
@@ -63,7 +63,7 @@ Here is the result:
 
 ```js
 function preload() {
-  doge = loadImage("doge.png")
+  doge = loadImage("doge.png");
 }
 
 function setup() {
@@ -81,7 +81,7 @@ We can also make the image take up the entire canvas. Since the dimensions of th
 
 ```js
 function preload() {
-  doge = loadImage("doge.png")
+  doge = loadImage("doge.png");
 }
 
 function setup() {
