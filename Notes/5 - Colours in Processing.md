@@ -86,7 +86,7 @@ function setup() {
 
 Here is the result:
 
-![](../Images/Colour5.png)
+![](../Images/Colour6.png)
 
 Just like we can display images based on the coordinates of the center of the image, we can also display shapes based on the center of the image. We can use `rectMode(CENTER)` to do this. There is also a function called `ellipseMode()` that can take arguments such as `RADIUS` or `CORNERS` to change the default behaviour.
 
