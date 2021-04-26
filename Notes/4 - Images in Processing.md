@@ -14,8 +14,8 @@ function preload() {
 }
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	image(doge, 0, 0); // the top-left corner of the image will be (0, 0)
+  createCanvas(windowWidth, windowHeight);
+  image(doge, 0, 0); // the top-left corner of the image will be (0, 0)
 }
 ```
 
@@ -31,9 +31,9 @@ function preload() {
 }
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
   imageMode(CENTER); // the image() function below will take the center coordinates
-	image(doge, windowWidth/2, windowHeight/2); // the center of the image will be (windowWidth/2, windowHeight/2)
+  image(doge, windowWidth/2, windowHeight/2); // the center of the image will be (windowWidth/2, windowHeight/2)
 }
 ```
 
@@ -49,9 +49,9 @@ function preload() {
 }
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	imageMode(CENTER);
-	image(doge, windowWidth/2, windowHeight/2, 2*doge.width, 2*doge.height); // doubles the dimensions of the image
+  createCanvas(windowWidth, windowHeight);
+  imageMode(CENTER);
+  image(doge, windowWidth/2, windowHeight/2, 2*doge.width, 2*doge.height); // doubles the dimensions of the image
 }
 ```
 
@@ -67,9 +67,9 @@ function preload() {
 }
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	imageMode(CENTER);
-	image(doge, windowWidth/2, windowHeight/2, doge.width/2, doge.height/2); // halves the dimensions of the image
+  createCanvas(windowWidth, windowHeight);
+  imageMode(CENTER);
+  image(doge, windowWidth/2, windowHeight/2, doge.width/2, doge.height/2); // halves the dimensions of the image
 }
 ```
 
@@ -85,9 +85,9 @@ function preload() {
 }
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	imageMode(CENTER);
-	image(doge, windowWidth/2, windowHeight/2, windowWidth, windowHeight); // takes up the entire canvas
+  createCanvas(windowWidth, windowHeight);
+  imageMode(CENTER);
+  image(doge, windowWidth/2, windowHeight/2, windowWidth, windowHeight); // takes up the entire canvas
 }
 ```
 
