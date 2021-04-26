@@ -26,10 +26,10 @@ To colour their outline, we use the `stroke()` function. This tells the program
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	stroke(128, 0, 128); // makes the outlines purple
-	rect(300, 500, 150, 150);
-	ellipse(200, 200, 150, 150);
+  createCanvas(windowWidth, windowHeight);
+  stroke(128, 0, 128); // makes the outlines purple
+  rect(300, 500, 150, 150);
+  ellipse(200, 200, 150, 150);
 }
 ```
 
@@ -41,11 +41,11 @@ If we want the outline to be thicker, we can use the `strokeWeight()` function
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	stroke(128, 0, 128); // makes the outlines purple
+  createCanvas(windowWidth, windowHeight);
+  stroke(128, 0, 128); // makes the outlines purple
   strokeWeight(5); // makes the outlines 5 pixels wide
-	rect(300, 500, 150, 150);
-	ellipse(200, 200, 150, 150);
+  rect(300, 500, 150, 150);
+  ellipse(200, 200, 150, 150);
 }
 ```
 
@@ -57,12 +57,12 @@ To colour the inside of a shape, we use the `fill()` function. This tells the pr
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	stroke(128, 0, 128); // makes the outlines purple
+  createCanvas(windowWidth, windowHeight);
+  stroke(128, 0, 128); // makes the outlines purple
   strokeWeight(5); // makes the outlines 5 pixels wide
-	fill(255, 165, 0); // makes the inside orange
-	rect(300, 500, 150, 150);
-	ellipse(200, 200, 150, 150);
+  fill(255, 165, 0); // makes the inside orange
+  rect(300, 500, 150, 150);
+  ellipse(200, 200, 150, 150);
 }
 ```
 
@@ -76,16 +76,16 @@ We can also use different colours for outlines and interiors of different shapes
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	stroke(128, 0, 128);
-	fill(255, 165, 0);
-	strokeWeight(5);
-	rectMode(CENTER); // all new rectangles will be placed based on their center coordinate
-	rect(windowWidth/2, windowHeight/2, 400, 400);
-	stroke(255, 255, 0); // overrides the previous stroke() function
-	fill(255, 192, 203); // overrides the previous fill() function
-	ellipseMode(CENTER); // all new rectangles will be placed based on their center coordinate
-	ellipse(windowWidth/2, windowHeight/2, 300, 300);
+  createCanvas(windowWidth, windowHeight);
+  stroke(128, 0, 128);
+  fill(255, 165, 0);
+  strokeWeight(5);
+  rectMode(CENTER); // all new rectangles will be placed based on their center coordinate
+  rect(windowWidth/2, windowHeight/2, 400, 400);
+  stroke(255, 255, 0); // overrides the previous stroke() function
+  fill(255, 192, 203); // overrides the previous fill() function
+  ellipseMode(CENTER); // all new rectangles will be placed based on their center coordinate
+  ellipse(windowWidth/2, windowHeight/2, 300, 300);
 }
 ```
 
