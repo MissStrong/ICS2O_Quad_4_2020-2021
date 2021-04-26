@@ -80,10 +80,13 @@ function setup() {
   stroke(128, 0, 128);
   fill(255, 165, 0);
   strokeWeight(5);
+  
   rectMode(CENTER); // all new rectangles will be placed based on their center coordinate
   rect(windowWidth/2, windowHeight/2, 400, 400);
+  
   stroke(255, 255, 0); // overrides the previous stroke() function
   fill(255, 192, 203); // overrides the previous fill() function
+  
   ellipseMode(CENTER); // all new rectangles will be placed based on their center coordinate
   ellipse(windowWidth/2, windowHeight/2, 300, 300);
 }
