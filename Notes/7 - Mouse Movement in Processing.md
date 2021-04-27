@@ -8,11 +8,11 @@ If we are trying to find the coordinates of a specific pixel, we can print these
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	print(mouseX, mouseY);
+  print(mouseX, mouseY);
 }
 ```
 
@@ -24,11 +24,11 @@ We can use this to track the movement of the mouse
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	line(pmouseX, pmouseY, mouseX, mouseY);
+  line(pmouseX, pmouseY, mouseX, mouseY);
 }
 ```
 
