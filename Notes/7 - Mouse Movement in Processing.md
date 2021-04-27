@@ -33,7 +33,8 @@ function setup() {
 }
 
 function draw() {
-  print(mouseX, mouseY);
+  print(mouseX);
+  print(mouseY);
 }
 ```
 
