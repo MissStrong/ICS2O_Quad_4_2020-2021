@@ -1,6 +1,6 @@
 ## Processing versus P5.js
 
-We have been learning the basics of Processing from [hello.processing.org/editor/](http://hello.processing.org/editor/) and writing our code using [openprocessing.org](http://openprocessing.org). 
+We have been learning the basics of Processing from [hello.processing.org/editor](http://hello.processing.org/editor) and writing our code using [openprocessing.org](http://openprocessing.org). 
 
 The programming language used in openprocessing.org is actually a dialect of Processing called **P5.js** and is a library in Javascript (the "js" in P5.js stands for Javascript) . Javascript is a programming language used for website development. It is often used alongside HTML (Hypertext Markup Language) and CSS (cascade style sheet) to display information on a website. On a sketch in openprocessing.org, if you change the mode to HTML/CSS, you can see the HTML and CSS files running in the background to get your sketch to appear in your browser.
 
