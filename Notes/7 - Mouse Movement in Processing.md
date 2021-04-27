@@ -12,12 +12,12 @@ If we want to modify it so that only one circle shows up at a time based on wher
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	background(100);
-	ellipse(mouseX, mouseY, 20, 20);
+  background(100);
+  ellipse(mouseX, mouseY, 20, 20);
 }
 ```
 
