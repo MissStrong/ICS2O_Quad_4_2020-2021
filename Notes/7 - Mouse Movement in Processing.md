@@ -16,6 +16,9 @@ function draw() {
 	ellipse(mouseX, mouseY, 20, 20);
 }
 ```
+
+![](../Images/Circle.png)
+
 The reason this works is that the `draw()` function repeatedly redraws the background and covers up the previous circle. The reason the circle isn't flickering is that the canvas updates at the end of each cycle of `draw()`, so we see the changes to the screen all at once instead of one after the other.
 
 If we are trying to find the coordinates of a specific pixel, we can print these mouse coordinates to the console to help us find it.
