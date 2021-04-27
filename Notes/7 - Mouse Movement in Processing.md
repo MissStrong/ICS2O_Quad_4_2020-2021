@@ -4,6 +4,20 @@ The default sketch on openprocessing.org has the variables `mouseX` and `mouseY`
 
 ![](../Images/Default_Sketch.png)
 
+This sketch repeatedly draws circles whereever the mouse goes. If we want to modify it so that only one circle shows up at a time, we can move `background(100)` to the body of `draw()`.
+
+```js
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+}
+
+function draw() {
+	background(100);
+	ellipse(mouseX, mouseY, 20, 20);
+}
+```
+The reason this works is that the `draw()` function repeatedly redraws the background and covers up the previous circle. The reason the circle isn't flickering is that the canvas updates at the end of each cycle of `draw()`, so we see the changes to the screen all at once instead of one after the other.
+
 If we are trying to find the coordinates of a specific pixel, we can print these mouse coordinates to the console to help us find it.
 
 ```js
