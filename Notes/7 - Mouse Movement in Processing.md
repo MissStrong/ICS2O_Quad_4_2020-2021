@@ -8,7 +8,7 @@ This sketch repeatedly draws circles whereever the mouse goes.
 
 ![](../Images/Circles.png)
 
-If we want to modify it so that only one circle shows up at a time, we can move `background(100)` to the body of `draw()`.
+If we want to modify it so that only one circle shows up at a time based on where the cursor currently is, we can move `background(100);` to the body of `draw()`.
 
 ```js
 function setup() {
