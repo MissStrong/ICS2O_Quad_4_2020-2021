@@ -4,7 +4,11 @@ The default sketch on openprocessing.org has the variables `mouseX` and `mouseY`
 
 ![](../Images/Default_Sketch.png)
 
-This sketch repeatedly draws circles whereever the mouse goes. If we want to modify it so that only one circle shows up at a time, we can move `background(100)` to the body of `draw()`.
+This sketch repeatedly draws circles whereever the mouse goes. 
+
+![](../Images/Circles.png)
+
+If we want to modify it so that only one circle shows up at a time, we can move `background(100)` to the body of `draw()`.
 
 ```js
 function setup() {
