@@ -6,7 +6,7 @@ The default sketch on openprocessing.org has the variables `mouseX` and `mouseY`
 
 This sketch repeatedly draws circles whereever the mouse goes. 
 
-![](../Images/Circles.png)
+![](../Images/Circles2.png)
 
 If we want to modify it so that only one circle shows up at a time based on where the cursor currently is, we can move `background(100);` to the body of `draw()`.
 
