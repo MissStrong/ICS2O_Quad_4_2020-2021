@@ -1,6 +1,6 @@
 ## Images in Processing
 
-To upload an image to use in your program, click on the kebab menu (the vertical ellipses `⋮`) then *Files*. There, you can drag and drop the image.
+To upload an image to use in your program, click on the kebab menu (the vertical ellipsis `⋮`) then *Files*. There, you can drag and drop the image.
 
 ![](../Images/Files.png)
 
