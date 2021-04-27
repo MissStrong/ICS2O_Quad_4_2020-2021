@@ -4,7 +4,7 @@ The default sketch on openprocessing.org has the variables `mouseX` and `mouseY`
 
 ![](../Images/Default_Sketch.png)
 
-This sketch repeatedly draws circles whereever the mouse goes. 
+This sketch repeatedly draws circles wherever the mouse goes. 
 
 ![](../Images/Circles2.png)
 
