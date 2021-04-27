@@ -56,3 +56,21 @@ function draw() {
 This program will continuously draw a line every time the mouse moves, leaving a trail of the places the cursor has been to.
 
 ![](../Images/Mouse_Trail.png)
+
+We can also use `mouseX` and `mouseY` to represent things other than coordinates, such as the length and width of a rectangle.
+
+
+```js
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
+function draw() {
+  background(255);
+  rectMode(CENTER);
+  rect(mouseX, mouseY, mouseX/2, mouseY/2);
+}
+```
+
+This will draw a rectangle with side lengths proportaional to the coordinates of its center. For example, if you move the mouse towards the origin, it will be a small rectangle and if you move it towards the bottom-right corner, it will be large rectangle.
+
