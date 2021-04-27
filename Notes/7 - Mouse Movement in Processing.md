@@ -41,7 +41,7 @@ The `draw()` function will repeatedly print the coordinates to the console. Ever
 
 There are also built-in variables for the most recent mouse coordinates: `pmouseX` and `pmouseX` (the "p" stands for previous).
 
-We can use this to track the movement of the mouse
+We can use this to track the movement of the mouse.
 
 ```js
 function setup() {
