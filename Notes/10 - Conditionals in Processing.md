@@ -17,11 +17,11 @@ Here is an example of an `if` statement. It draws a circle where the cursor is, 
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	background(100);
+  background(100);
   if (mouseIsPressed) { 
     ellipse(mouseX, mouseY, 50, 50); // this line only runs when the mouse is pressed down
   }
@@ -32,11 +32,11 @@ We could also have multiple `if` statements together. Here is an example of that
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	background(100);
+  background(100);
   if (mouseIsPressed) { 
     ellipse(mouseX, mouseY, 50, 50); // this line only runs when the mouse is pressed down
   } if (keyIsPressed) {
@@ -51,11 +51,11 @@ Here is an example of that. The difference is that if the mouse and key are both
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	background(100);
+  background(100);
   if (mouseIsPressed) { 
     ellipse(mouseX, mouseY, 50, 50);
   } else if (keyIsPressed) { // this line is slightly different from before
@@ -72,15 +72,15 @@ Here is an example of an `if` -`else` statement. It draws a circle when the mou
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	background(100);
+  background(100);
   if (mouseIsPressed) { 
     ellipse(mouseX, mouseY, 50, 50); // this line only runs when the mouse is pressed down
   } else {
-		rectMode(CENTER);  // these two line only runs when the mouse is NOT pressed down
+    rectMode(CENTER);  // these two line only runs when the mouse is NOT pressed down
     rect(mouseX, mouseY, 50, 50); 
   }
 }
@@ -92,15 +92,15 @@ The example below is the same as above except it draws a square when mouse is he
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	background(100);
+  background(100);
   if (!mouseIsPressed) { // this line is slightly different from before
     ellipse(mouseX, mouseY, 50, 50); 
   } else {
-		rectMode(CENTER);
+    rectMode(CENTER);
     rect(mouseX, mouseY, 50, 50); 
   }
 }
