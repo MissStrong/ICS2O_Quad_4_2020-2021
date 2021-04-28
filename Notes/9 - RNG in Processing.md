@@ -47,3 +47,5 @@ function draw() {
   ellipse(int(random(windowWidth + 1)), int(random(windowHeight + 1)), 50, 50);
 }
 ```
+
+![](../Images/Colourful_Circles.png)
