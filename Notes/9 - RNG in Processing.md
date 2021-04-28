@@ -8,13 +8,13 @@ We can use this to generate random colours. The program below has a circle follo
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-	background(255);
-	fill(int(random(256)), int(random(256)), int(random(256)))); // the RGB values are random
-	ellipse(mouseX, mouseY, 50, 50);
+  background(255);
+  fill(int(random(256)), int(random(256)), int(random(256))); // the RGB values are random
+  ellipse(mouseX, mouseY, 50, 50);
 }
 ```
 
@@ -22,13 +22,30 @@ We may not want 60 colours flashing at us every second, so now would be a good t
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
   frameRate(10); // the frame rate is now 10 frames per second instead of 60
 }
 
 function draw() {
-	background(255);
-	fill(int(random(256)), int(random(256)), int(random(256))));
-	ellipse(mouseX, mouseY, 50, 50);
+  background(255);
+  fill(int(random(256)), int(random(256)), int(random(256)));
+  ellipse(mouseX, mouseY, 50, 50);
 }
 ```
+
+We can also generate random locations for shapes. Here is an example of a program that continuously draws colourful circles in various locations on the canvas.
+
+```js
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  background(255);
+  frameRate(2); // the frame rate is now 2 frames per second instead of 60
+}
+
+function draw() {
+  fill(int(random(256)), int(random(256)), int(random(256)));
+  ellipse(int(random(windowWidth + 1)), int(random(windowHeight + 1)), 50, 50);
+}
+```
+
+![](../Images/Colourful_Circles.png)
