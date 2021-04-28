@@ -48,4 +48,4 @@ function draw() {
 }
 ```
 
-![](../Images/Colourful_Circles.png)
+![](../Images/Colourful_Circles2.png)
