@@ -106,3 +106,17 @@ function draw() {
 ```
 
 Constants that are declared using `const` are global if they are declared outside a function and local if they are declared inside a smaller scope.
+
+
+### Naming Notations
+
+In different programming languages, there are different rules for naming. Here are some of the common notations used.
+
+| Notation Name    | Example                  | Explanation                                                  |
+| ---------------- | ------------------------ | ------------------------------------------------------------ |
+| Camel Case       | thisIsCamelCase          | Every word begins with a capital, except for the first word.<br/><br/>All other letters are lowercase. |
+| Pascal Case      | ThisIsPascalCase         | Every word begins with a capital.<br/><br/>All other letters are lowercase. |
+| Snake Case       | this_is_snake_case       | Every letter is lowercase.<br/><br/>Words are separated with underscores. |
+| Caterpillar Case | this-is-caterpillar-case | Every letter is lowercase.<br/><br/>Words are separated with hyphens. |
+
+In Processing, we use camel case for variables and functions, and screaming snake case (snake case in all capital letters) for constants.
