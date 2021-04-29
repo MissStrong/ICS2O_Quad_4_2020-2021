@@ -62,11 +62,10 @@ function setup() {
   text("Hello!", windowWidth/2, windowHeight/2)
 }
 ```
+![](../Images/Hello_Text2.png)
 
 * Align the text using `textAlign()` and the following constants:
   * `CENTER`, `TOP`, `BOTTOM`, `LEFT`, `RIGHT`
-
-![](../Images/Hello_Text2.png)
 
 ```js
 function setup() {
