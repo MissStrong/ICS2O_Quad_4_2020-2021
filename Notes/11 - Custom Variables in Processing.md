@@ -67,7 +67,7 @@ function setup() {
 
 ### Constants
 
-A constant behaves like a variable, except its value can never change in a program once it has been initialized. The convention is to write constants in all uppercase letters. If it is more than one word, we seprate them with underscores. We've seen the following constants so far:
+A **constant** behaves like a variable, except its value can never change in a program once it has been initialized. The convention is to write constants in all uppercase letters. If it is more than one word, we seprate them with underscores. We've seen the following constants so far:
 
 * `CENTER`
 * `PI`
