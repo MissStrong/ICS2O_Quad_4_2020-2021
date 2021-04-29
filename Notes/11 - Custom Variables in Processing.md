@@ -54,7 +54,7 @@ Since the scope of `coordinate` is the entire program , we can use `coordinate` 
 We can modify the program to make the circle move. For example, we can update the value of the coordinate to increase by 5 each time the `draw()` function is run.
 
 ```js
-let coordinate = 0; // declaring a variabe and giving it the value of 0
+let coordinate = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -63,7 +63,7 @@ function setup() {
 
 function draw() {
   ellipse(coordinate, coordinate, 20, 20); 
-  coordinate = coordinate + 10; // the value of the coordinate increaes by 10 
+  coordinate = coordinate + 10; // the value of the coordinate increases by 10 
 }
 ```
 
