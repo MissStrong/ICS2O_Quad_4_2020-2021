@@ -119,4 +119,6 @@ In different programming languages, there are different rules for naming. Here a
 | Snake Case       | this_is_snake_case       | Every letter is lowercase.<br/><br/>Words are separated with underscores. |
 | Caterpillar Case | this-is-caterpillar-case | Every letter is lowercase.<br/><br/>Words are separated with hyphens. |
 
-In Processing, we use camel case for variables and functions, and screaming snake case (snake case in all capital letters) for constants.
+In Processing, we use:
+* camel case for variables and functions
+* screaming snake case (snake case in all capital letters) for constants
