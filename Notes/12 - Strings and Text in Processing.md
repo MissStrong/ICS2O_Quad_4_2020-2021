@@ -82,7 +82,7 @@ function setup() {
 
 ![](../Images/Hello_Text3.png)
 
-We can also use any font we want by uploading the `.ttf` or `.otf` file for it. We can search online to find the file for the font we want and load it similar to how we load an image. To load a font file we use `loadFont()` and to use the font we use `textFont()`.
+We can also use any font we want by uploading the `.ttf` (TrueType Font) or `.otf` (OpenType Font) file for it. We can search online to find the file for the font we want and load it similar to how we load an image. To load a font file we use `loadFont()` and to use the font we use `textFont()`.
 
 ```js
 function preload() {
