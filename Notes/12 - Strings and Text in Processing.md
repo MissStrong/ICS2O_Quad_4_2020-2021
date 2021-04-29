@@ -82,7 +82,7 @@ function setup() {
 
 ![](../Images/Hello_Text3.png)
 
-We can also use any font we want by uploading the `.ttf` or `.otf` file for it. We can search online to find the file for the font we want and load it similar to how we load an image.
+We can also use any font we want by uploading the `.ttf` or `.otf` file for it. We can search online to find the file for the font we want and load it similar to how we load an image. To load a font file we use `loadFont()` and to use the font we use `textFont()`.
 
 ```js
 function preload() {
@@ -91,7 +91,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  textFont(comicSans, 100);
+  textFont(comicSans, 100); // we can put the font size here instead of using textSize()
   textAlign(CENTER);
   text("Hello!", windowWidth/2, windowHeight/2);
 }
