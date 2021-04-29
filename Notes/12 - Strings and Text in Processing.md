@@ -55,10 +55,10 @@ Here are some other things we can do with text:
 ```js
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  fill(0, 0, 255);
-  textSize(100);
-  textAlign(CENTER);
-  textStyle(ITALIC);
+  fill(0, 0, 255); // makes the text blue
+  textSize(100); // makes the font size 100
+  textStyle(ITALIC); // makes the text italicized
+  textAlign(CENTER); 
   text("Hello!", windowWidth/2, windowHeight/2)
 }
 ```
@@ -82,11 +82,11 @@ function setup() {
 
 ![](../Images/Hello_Text3.png)
 
-We can also use any font we want by uploading the .`ttf` file for it. We can search online to find the file for the font we want and load it similar to how we load an image.
+We can also use any font we want by uploading the `.ttf` or `.otf` file for it. We can search online to find the file for the font we want and load it similar to how we load an image.
 
 ```js
 function preload() {
-	comicSans = loadFont("comicSans.ttf");
+  comicSans = loadFont("comicSans.ttf"); // "comicSans.ttf" is a file that was found online and uploaded
 }
 
 function setup() {
