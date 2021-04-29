@@ -90,5 +90,3 @@ function draw() {
 ```
 
 Constants that are declared using `const` are global if they are declared outside a function and local if they are declared inside a smaller scope.
-
-## 
