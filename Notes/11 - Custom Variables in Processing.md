@@ -51,6 +51,22 @@ function draw() {
 
 Since the scope of `coordinate` is the entire program , we can use `coordinate` in any of the functions or anywhere outside the functions.
 
+We can modify the program to make the circle move. For example, we can update the value of the coordinate to increase by 5 each time the `draw()` function is run.
+
+```js
+let coordinate = 0; // declaring a variabe and giving it the value of 0
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  background(100);
+}
+
+function draw() {
+  ellipse(coordinate, coordinate, 20, 20); 
+  coordinate = coordinate + 10; // the value of the coordinate increaes by 10 
+}
+```
+
 The previous example with the image is also an example of a global variable. This explains why we were able to declare and initialize it in one function and use it in another function.
 
 ```js
