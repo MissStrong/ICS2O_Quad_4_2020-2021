@@ -11,7 +11,7 @@ Unlike instant messages, all emails include a subject line. The subject should b
 
 The salutation (opening line) of an email consists of three parts.
 
-1. **Greeting **
+1. **Greeting**
    Choose a formal or casual greeting to shows an appropriate amount of respect for the recipient. Here are some examples of greetings.
 
    - Dear
@@ -28,7 +28,7 @@ The salutation (opening line) of an email consists of three parts.
 
      
 
-2. **Recipient's name **
+2. **Recipient's name**
    When writing the recipient's name, be sure to write it exactly as they write it. For example, don't shorten "Thomas" to "Tom" if they have addressed themself as "Thomas".
 
    If you are formally addressing an adult, avoid using only their first name. Either write their name in full, with or without an honourific (i.e. a title such as *Mr.* or *Ms.*), or just use an honourific followed by their last name.
@@ -37,8 +37,7 @@ The salutation (opening line) of an email consists of three parts.
 
    
 
-3. **Final punctuation
-   **
+3. **Final punctuation**
    There are three commonly used punctuation marks that terminate the salutation. Colons are more formal than commas and en dashes, and typically used only when the greeting is *Dear.* Note that an en dash is not the same as a hyphen (-), as it is slightly longer. *
    *
 
@@ -100,12 +99,8 @@ When you are sending a copy of an email to someone you have three options for wh
 1. Option 1: *To*
    If you are addressing the person directly, you should put their email address under *To*.
 
-   
-
 2. Option 2: *CC* (**C**arbon **C**opy)
    If you are not addressing the person directly, you should use *CC*. This lets the *CC* recipient know that you are addressing someone else in the email (which is found under *To*) and are sending the message for their reference. When you do this, you may wish to include a notice such as "I've CC'd ..." to inform the main recipient that the email has also been sent to other people.
-
-   
 
 3. Option 3: *BCC* (**B**lind **C**arbon **C**opy)
    If you are sending the email to more than one person and would not like to reveal their email addresses to each other, you should put them all under *BCC*.
@@ -115,18 +110,13 @@ When you are sending a copy of an email to someone you have three options for wh
 There are several ways to respond to an email.
 
 1. Option 1: *Reply*
-   Use this when you are sending the response only to the original sender.
-
-   
+   Use this when you are sending the response only to the original sender. 
 
 2. Option 2: *Reply-All*
    Use this when you are sending the response to the original sender and everyone else (except those under *BCC*) who received the original message.
 
-   
-
 3. Option 3: *Forward*
    Use this when you are sending a copy of a message for someone else to read. **Never forward a message without the original sender's permission**. Be aware that when you forward a message, you are also forwarding all the attachments.
-
 
 
 ### Exemplar
