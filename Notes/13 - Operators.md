@@ -17,7 +17,7 @@ Previously, we saw Boolean variables (i.e. variables whose values are `true` or 
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
-
+  
 function draw() {
   background(100);
   if (mouseIsPressed) { // mouseIsPressed is a Boolean variable
@@ -64,15 +64,15 @@ Here is an example that draws different shapes depending on which half (top or b
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(100);
-	rectMode(CENTER);
+  rectMode(CENTER);
 }
 
 function draw() {
-	if (mouseY <= windowHeight/2) { // if the cursor is in the top half
-		ellipse(mouseX, mouseY, 20, 20); 
-	} else { // if the cursor is in the bottom half
-		rect(mouseX, mouseY, 20, 20); 
-	}
+  if (mouseY <= windowHeight/2) { // if the cursor is in the top half
+    ellipse(mouseX, mouseY, 20, 20); 
+  } else { // if the cursor is in the bottom half
+    rect(mouseX, mouseY, 20, 20); 
+  }
 }
 ```
 
@@ -87,13 +87,13 @@ function setup() {
 }
 
 function draw() {
-	if (mouseX <= windowWidth/2 && mouseY <= windowHeight/2) { // if the cursor is in the top-left quadrant
-		fill(0, 255, 0);
-	} else {
-		fill(255);
-	}
-	
-	ellipse(mouseX, mouseY, 20, 20); 
+  if (mouseX <= windowWidth/2 && mouseY <= windowHeight/2) { // if the cursor is in the top-left quadrant
+    fill(0, 255, 0);
+  } else {
+    fill(255);
+  }
+  
+  ellipse(mouseX, mouseY, 20, 20); 
 }
 ```
 
@@ -105,17 +105,17 @@ This program draws circles in different colours depending on which half (left or
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(100);
-	rectMode(CENTER);
+  rectMode(CENTER);
 }
 
 function draw() {
-	if (mouseX <= windowWidth/2 || mouseIsPressed) {
-		fill(0, 0, 255);
-	} else {
-		fill(255);
-	}
-	
-	ellipse(mouseX, mouseY, 20, 20); 
+  if (mouseX <= windowWidth/2 || mouseIsPressed) {
+    fill(0, 0, 255);
+  } else {
+    fill(255);
+  }
+  
+  ellipse(mouseX, mouseY, 20, 20); 
 }
 ```
 
@@ -172,7 +172,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(100);
 }
-
+  
 function draw() {
   ellipse(coordinate, coordinate, 20, 20); 
   coordinate =+ 10; // the value of the coordinate increases by 10 
