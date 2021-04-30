@@ -52,7 +52,7 @@ Be sure to describe your message carefully and write using formal English. Use p
 
 Keep in mind that when you receive an email, the sender doesn't necessarily expect you to respond immediately. If you are asked a question you are unsure of, consider taking some time to figure it out before responding. 
 
-###  Sign-Off
+### Sign-Off
 
 The sign-off (a.k.a. valediction) of an email should match the tone of the email. Here are some examples of sign-offs.
 
@@ -73,7 +73,7 @@ A signature is an optional feature that appears at the very bottom of an email. 
 
 If you would like to create an email signature, click on your name at the top-right corner of the page, select *Account Settings* in the dropdown menu, then select the *Email* tab. There, you will find a place to create your email signature.
 
-![](../Signature.png)
+![](../Images/Signature.png)
 
 ### Attachments
 
