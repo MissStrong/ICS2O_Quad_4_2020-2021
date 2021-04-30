@@ -1,4 +1,4 @@
-## Operators
+## Operators in Processing
 
 **Operators** are symbols that perform an operation. The operators we've seen so far are:
 
