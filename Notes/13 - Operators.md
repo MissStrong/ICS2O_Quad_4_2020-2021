@@ -2,12 +2,12 @@
 
 **Operators** are symbols that perform an operation. The operators we've seen so far are:
 
-* `+`
-* `-`
-* `*`
-* `/`
-* `=`
-* `!`
+* Addition operator: `+`
+* Subtraction operator: `-`
+* Multiplication operator: `*`
+* Division operator: `/`
+* Assignment operator: `=`
+* Negation operator: `!`
 
 ### Boolean Expressions
 
