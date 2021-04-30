@@ -69,11 +69,9 @@ The sign-off should be followed by a comma, a line break, then your name.
 
 ### Signature
 
-A signature is an optional feature that appears at the very bottom of an email. Signatures are often used to provide more information about the person who sent it, such as their occupation, personal pronouns, and contact information. Signatures sometimes include "inspirational" quotes.
+A signature is an optional feature that appears at the very bottom of an email. Signatures are often used to provide more information about the person who sent it, such as their occupation, personal pronouns, and contact information. Signatures sometimes include "inspirational" quotes. 
 
-If you would like to create an email signature, click on your name at the top-right corner of the page, select *Account Settings* in the dropdown menu, then select the *Email* tab. There, you will find a place to create your email signature.
-
-![](../Images/Signature.png)
+![](../Images/Email_Signature.png)
 
 ### Attachments
 
