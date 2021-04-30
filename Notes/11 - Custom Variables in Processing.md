@@ -66,6 +66,7 @@ function draw() {
   coordinate = coordinate + 10; // the value of the coordinate increases by 10 
 }
 ```
+![](../Images/Circle_Trail.png)
 
 The previous example with the image is also an example of a global variable. This explains why we were able to declare and initialize it in one function and use it in another function.
 
