@@ -121,6 +121,32 @@ function draw() {
 
 ![](../Images/Blue_Circles.png)
 
+If we want to check whether our cursor is hovering over a rectangle on the screen, we can check whether `mouseX` and `mouseY` are in specific ranges.
+
+```js
+function setup() {
+  createCanvas(800, 600);
+  background(255);
+  rectMode(CENTER); // draws the blue rectangle
+  fill(6, 69, 173);
+  rect(400, 300, 200, 150);
+  textAlign(CENTER, CENTER); // writes "Click me" in white
+  textSize(40);
+  fill(255);
+  text("Click me", 400, 300);
+}
+
+function draw() {
+  if (300 < mouseX && mouseX < 500 && 225 < mouseY && mouseY < 375) { // checks if the cursor is in the rectangle
+    if (mouseIsPressed) {		
+      print("Hello!"); // prints "Hello" to the console when the button is pressed down
+    }
+  }
+}
+```
+![](../Images/Click_Me.png)
+
+
 ### Order of Operations
 
 With the numerical operators `+`, `-`, `*`, and `/` the order of operations follows BEDMAS.
