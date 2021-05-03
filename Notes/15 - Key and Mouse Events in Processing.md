@@ -177,13 +177,16 @@ function mouseReleased() {
 ```
 
 ```js
+const SPACE_KEY = 32; // retrieved from http://keycode.info
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(100);
 }
 
 function keyReleased() {
-  ellipse(mouseX, mouseY, 50, 50); // draws a circle when the key is released
+  if (keyCode == SPACE_KEY) {
+    ellipse(mouseX, mouseY, 50, 50); // draws a circle when the spacebar is released
+  }
 }
 ```
-
