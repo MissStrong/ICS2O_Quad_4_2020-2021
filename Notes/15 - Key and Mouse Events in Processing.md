@@ -163,7 +163,7 @@ function keyPressed() {
 
 ![](../Images/Circle2.png)
 
-We can also use the functions `mouseReleased()` and `keyReleased()`. They work just like `mousePressed()` and `keyPressed()` except they activate when the mouse or key is released (i.e. no longer being pressed down).
+We can also use the functions `mouseReleased()` and `keyReleased()`. They work just like `mousePressed()` and `keyPressed()` except they activate when the mouse or key is released (i.e. when you let go of it after pressing it down).
 
 ```js
 function setup() {
