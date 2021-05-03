@@ -22,7 +22,7 @@ The following program draws circles in random places when any key on the keyboar
 ```js
 function setup() {
   createCanvas(windowWidth, windowHeight);
-	background(100);
+  background(100);
 }
 
 function keyPressed() {
@@ -51,7 +51,7 @@ We can modify our previous example so that the circle is drawn only if the enter
 ```js
 function setup() {
   createCanvas(windowWidth, windowHeight);
-	background(100);
+  background(100);
 }
 
 function keyPressed() {
@@ -66,13 +66,13 @@ We can also use keycodes when we use `keyPressed`. This function does the same t
 ```js
 function setup() {
   createCanvas(windowWidth, windowHeight);
-	background(100);
+  background(100);
 }
 
 function draw() {
   if (keyIsPressed) {
-  	if (keyCode == ENTER) { // checks whether the key that is being pressed is the enter key
-    	ellipse(random(windowWidth), random(windowHeight), 50, 50);
+    if (keyCode == ENTER) { // checks whether the key that is being pressed is the enter key
+      ellipse(random(windowWidth), random(windowHeight), 50, 50);
     }
   }
 }
@@ -85,13 +85,13 @@ Suppose we want the same program except we use the spacebar instead. According t
 ```js
 function setup() {
   createCanvas(windowWidth, windowHeight);
-	background(100);
+  background(100);
 }
 
 function draw() {
   if (keyIsPressed) {
-  	if (keyCode == 32) { // checks whether the key that is being pressed is the spacebar
-    	ellipse(random(windowWidth), random(windowHeight), 50, 50);
+    if (keyCode == 32) { // checks whether the key that is being pressed is the spacebar
+      ellipse(random(windowWidth), random(windowHeight), 50, 50);
     }
   }
 }
@@ -104,13 +104,13 @@ const SPACE_KEY = 32; // retrieved from http://keycode.info
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-	background(100);
+  background(100);
 }
 
 function draw() {
   if (keyIsPressed) {
-  	if (keyCode == SPACE_KEY) { // checks whether the key that is being pressed is the spacebar
-    	ellipse(random(windowWidth), random(windowHeight), 50, 50);
+    if (keyCode == SPACE_KEY) { // checks whether the key that is being pressed is the spacebar
+      ellipse(random(windowWidth), random(windowHeight), 50, 50);
     }
   }
 }
