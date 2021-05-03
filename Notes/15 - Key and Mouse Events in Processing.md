@@ -30,7 +30,7 @@ function keyPressed() {
 }
 ```
 
-![](../Images/Random_Circles_1)
+![](../Images/Random_Circles_1.png)
 
 If we want to detect a particular key being pressed, we can do that by looking up the key's keycode. Every key that can be found on a keyboard  is assigned a number and we can use [http://keycode.info](http://keycode.info/) to look up the keycodes. These numbers are based on the key's value in the [ASCII table](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html) (ASCII is pronounced "askey"). 
 
@@ -78,7 +78,7 @@ function draw() {
 }
 ```
 
-![](../Images/Random_Circles_2)
+![](../Images/Random_Circles_2.png)
 
 Suppose we want the same program except we use the spacebar instead. According to [http://keycode.info](http://keycode.info/), the keycode for spacebar is 32. Since there is no built-in constant for the spacebar keycode, we can just use 32.
 
