@@ -11,7 +11,7 @@
 
 ### Boolean Expressions
 
-Previously, we saw Boolean variables (i.e. variables whose values are `true` or `false`.
+Previously, we saw Boolean variables (i.e. variables whose values are `true` or `false`).
 
 ```js
 function setup() {
