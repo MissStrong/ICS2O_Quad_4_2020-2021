@@ -1,6 +1,6 @@
 ## Key and Mouse Events in Processing
 
-So far we've seen the built-in variables `mouseIsPressed` and `keyIsPressed` used to detect mouse and key activity. These detect whether the mouse or a key is currently being held down. If we want to detect a single mouse click or key press, we need the functions `mousePressed()` and `keyPressed()` . These functions are called  **event listeners** or **event handlers**.
+So far we've seen the built-in variables `mouseIsPressed` and `keyIsPressed` used to detect mouse and key activity. These detect whether the mouse or a key is currently being held down. If we want to detect a single mouse click or key press, we need the functions `mousePressed()` and `keyPressed()`. These functions are called  **event listeners** or **event handlers**.
 
 The way we use these two functions is similar to `setup()`, `preload()`, `draw()`.  We are overriding them, so we need the keyword `function` and we write them 
 
@@ -162,4 +162,28 @@ function keyPressed() {
 ```
 
 ![](../Images/Circle2.png)
+
+We can also use the functions `mouseReleased()` and `keyReleased()`. They work just like `mousePressed()` and `keyPressed()` except they activate when the mouse or key is released (i.e. no longer being pressed down).
+
+```js
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  background(100);
+}
+
+function mouseReleased() {
+  ellipse(mouseX, mouseY, 50, 50); // draws a circle when the mouse is released
+}
+```
+
+```js
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  background(100);
+}
+
+function keyReleased() {
+  ellipse(mouseX, mouseY, 50, 50); // draws a circle when the key is released
+}
+```
 
