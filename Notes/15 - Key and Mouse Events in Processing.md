@@ -114,10 +114,11 @@ function draw() {
     }
   }
 }
+```
 
 We can use a variety of keycodes to control the graphics on the canvas. Here is an example of moving a circle on the screen using various controls.
 
-```
+```js
 const W_KEY = 87; // all retrieved from http://keycode.info
 const A_KEY = 65;
 const S_KEY = 83;
@@ -158,6 +159,7 @@ function keyPressed() {
     yPos = windowHeight/2;
   }
 }
+```
 
 ![](../Images/Circle2.png)
 
