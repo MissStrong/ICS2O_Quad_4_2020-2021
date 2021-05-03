@@ -115,3 +115,51 @@ function draw() {
   }
 }
 ```
+
+We can use a variety of keycodes to control the graphics on the canvas. Here is an example of moving a circle on the screen using various controls.
+
+
+```js
+const W_KEY = 87; // all retrieved from http://keycode.info
+const A_KEY = 65;
+const S_KEY = 83;
+const D_KEY = 68; 
+const SPACE_KEY = 32;
+
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+	xPos = windowWidth/2; // the circle is initially in the middle of the canvas
+	yPos = windowHeight/2;
+	fill(0); // makes the circle black
+}
+
+function draw() {
+	background(255); // makes the background white
+	ellipse(xPos, yPos, 100);
+	if (keyIsPressed) {
+		if (keyCode == UP_ARROW || keyCode == W_KEY) { // pressing the up arrow or the W key makes the circle move upwards
+    	yPos -= 5;
+  	} else if (keyCode == DOWN_ARROW || keyCode == S_KEY) { // pressing the down arrow or the S key makes the circle move downwards
+    	yPos += 5;
+  	} else if (keyCode == LEFT_ARROW || keyCode == A_KEY) { // pressing the left arrow or the A key makes the circle move to the left
+    	xPos -= 5;
+  	} else if (keyCode == RIGHT_ARROW || keyCode == D_KEY) { // pressing the right arrow or the D key makes the circle move to the left
+    	xPos += 5;
+		}
+  }
+}
+
+function mousePressed() { // pressing the mouse moves the circle to where the cursor is
+	xPos = mouseX;
+	yPos = mouseY;
+}
+
+function keyPressed() {
+	if (keyCode == SPACE_KEY) { // pressing the spacebar moves the circle to the center of the screen
+	  xPos = windowWidth/2;
+	  yPos = windowHeight/2;
+	}
+}
+
+
+```
