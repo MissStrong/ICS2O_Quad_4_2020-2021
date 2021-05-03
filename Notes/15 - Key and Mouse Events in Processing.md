@@ -1,6 +1,6 @@
 ## Key and Mouse Events in Processing
 
-So far we've seen the built-in variables `mouseIsPressed` and `keyIsPressed` used to detect mouse and key activity. These detect whether the mouse or a key is currently being held down. If we want to detect a single mouse click or key press, we need the functions `mousePressed() ` and `keyPressed`() . These functions are called  **event listeners** or **event handlers**.
+So far we've seen the built-in variables `mouseIsPressed` and `keyIsPressed` used to detect mouse and key activity. These detect whether the mouse or a key is currently being held down. If we want to detect a single mouse click or key press, we need the functions `mousePressed()` and `keyPressed()` . These functions are called  **event listeners** or **event handlers**.
 
 The way we use these two functions is similar to `setup()`, `preload()`, `draw()`.  We are overriding them, so we need the keyword `function` and we write them 
 
