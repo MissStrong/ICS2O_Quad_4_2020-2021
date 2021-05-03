@@ -48,6 +48,8 @@ This is the main portion of the email. **Avoid** the following:
 - Emojis and emoticons
 - Acronyms used for texting (e.g. LOL, FTW, IDK)
 
+These rules can change over time. For example, using acronyms and emojis are becoming more and more common in emails that are meant to be professional.
+
 Be sure to describe your message carefully and write using formal English. Use polite words and expressions such as "please" and "thank you". 
 
 Keep in mind that when you receive an email, the sender doesn't necessarily expect you to respond immediately. If you are asked a question you are unsure of, consider taking some time to figure it out before responding. 
