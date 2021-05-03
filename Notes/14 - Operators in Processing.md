@@ -46,7 +46,7 @@ We can also create **Boolean expressions** using various types of operators.
 | Equals        | `==`            | `3 == 5 ` | 3 is not equal to 5, so the expression is `false`.<br/></br>Mixing up `=` and `==` is a notorious error in computer science. This applies to many programming languages, not just Python. |
 | Equals        | `===`           | `3 === 5` | 3 is not equal to 5, so the expression is `false`.<br/></br> The difference between them is that `===` checks to ensure that both sides belong to the same data type. Sometimes `==` can give false positives when they are different data types. |
 | Not Equals    | `!=`            | `3 != 5`  | 3 is not equal to 5, so the expression is `true`.<br />`!=` is supposed to look like the ≠ symbol. |
-| Not Equals    | `!=`=           | `3 !== 5` | 3 is not equal to 5, so the expression is `true`.<br />`!=` is supposed to look like the ≠ symbol. |
+| Not Equals    | `!==`           | `3 !== 5` | 3 is not equal to 5, so the expression is `true`.<br />`!=` is supposed to look like the ≠ symbol. |
 
 **Boolean operators** check whether two numbers are equal or not equal to produce a `true` or `false` statement. By convention, their names are written in capital letters.
 
