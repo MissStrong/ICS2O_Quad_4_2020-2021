@@ -186,7 +186,7 @@ function setup() {
 
 function keyReleased() {
   if (keyCode == SPACE_KEY) {
-    ellipse(mouseX, mouseY, 50, 50); // draws a circle when the spacebar is released
+    ellipse(random(windowWidth), random(windowHeight), 50, 50); // draws a circle when the spacebar is released
   }
 }
 ```
