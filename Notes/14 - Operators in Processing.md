@@ -54,7 +54,7 @@ We can also create **Boolean expressions** using various types of operators.
 | ------------- | --------------- | -------------------- | ------------------------------------------------------------ |
 | NOT           | `!`             | `!(3 < 5) `          | The statement in the parentheses is `true`, so the expression is the negation of that, which is `false`. |
 | AND           | `&&`            | `(3 < 5) && (3 > 5)` | At least one of those two statements is `false`, so the expression is `false`.<br/></br>There is a similar operator, `&`, called a bitwise operator, which does something completely different. Look it up if you're interested. |
-| OR            | `\|\|`          | `3 < 5) \|\|(3 > 5)` | At least one of those two statements is `true`, so the expression is `true`.<br></br>There is a similar operator, `\|`, called a bitwise operator, which does something completely different. Look it up if you're interested.<br></br>The pipe character is typically found above or beside the ENTER key on your keyboard. |
+| OR            | `\|\|`          | `(3 < 5) \|\|(3 > 5)` | At least one of those two statements is `true`, so the expression is `true`.<br></br>There is a similar operator, `\|`, called a bitwise operator, which does something completely different. Look it up if you're interested.<br></br>The pipe character is typically found above or beside the ENTER key on your keyboard. |
 
 We can use these operators to check more complex conditions, such as whether the cursor is currently in a specific section of the canvas.
 
