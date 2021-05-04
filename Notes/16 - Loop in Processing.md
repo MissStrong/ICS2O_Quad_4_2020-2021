@@ -125,7 +125,7 @@ function setup() {
 }
 ```
 
-A *for* loop takes these three parts and puts them all on one line. 
+A *for* loop takes these three parts and puts them all on one line, separated by semicolons. They use the keyword `for`.
 
 Here is the example from above rewritten using a *for* loop instead.
 
