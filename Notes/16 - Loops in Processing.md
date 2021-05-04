@@ -22,11 +22,11 @@ function draw() {
 
 ![](../Images/Diagonal_Squares.png)
 
-If we wanted the squares to show up all at once, one option is to type out `rect()` twelve times, but that is tedious and unnecessary. What we can do instead is use a **loop structure** , which repeatedly executes a specified block of code. This process of repetition is called **iteration**. 
+If we wanted the squares to show up all at once, one option is to type out `rect()` twelve times, but that is tedious and unnecessary. What we can do instead is use a **loop structure** , which repeatedly executes a specified block of code. This process of repetition is called **iteration**. There are two very comon types of loops: ***while* loops* and ***for* loops*.
 
 ### While Loops
 
-One of the loop strucures we can use is called a ***while* loop**. The structure is almost identical to an *if* statement. The difference between the two of them is that we use the keyword `while` instead of `if` and the body is repeatedly as long as the boolean expression is true.
+The structure of a *while* loop is almost identical to an *if* statement. The difference between the two of them is that we use the keyword `while` instead of `if` and the body is repeatedly as long as the boolean expression is true.
 
 ```js
 if (mouseY <= windowHeight/2) { 
@@ -103,13 +103,13 @@ function setup() {
 
 ### For Loops
 
-There is another loop structure called a ***for* loop**. The syntax looks different than a *while* loop, but it contains all the key parts:
+The syntax for a *for* loop looks different than a *while* loop, but it contains all the key parts:
 
 * a variable getting initialized
 * a boolean expression involving the variable that is repeatedly being checked
 * the variable getting updated
 
-Here is the example from before with the three key parts shown.
+Here is the example of a *while* loop from before with the three key parts shown.
 
 ```js
 let coordinate = 0; // the coordinate variable is getting initialized
