@@ -125,7 +125,7 @@ function setup( ) { // there should be no space after "("
 }
 ```
 
-An opening parenthesis in a boolean expression *could* have a space before it if there is a keyword (`if`, `while`, `for`) before it. If you use CTRL+B, it will add the space.
+For an opening parenthesis in a boolean expression that comes after a keyword (`if`, `while`, `for`), we have the choice to put a space before it or to leave it out. If you use CTRL+B, it will add the space.
 &nbsp;
 
 ### ✓
