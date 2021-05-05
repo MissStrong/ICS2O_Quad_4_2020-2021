@@ -398,13 +398,9 @@ const myConstant = 8;  // vague and doesn't use screaming snake case
 
 ### Line Comments
 
-Line comments are used to serve as explanations for what your code does and why it works.
+Line comments are used to serve as explanations for what your code does and why it works. In school, line comments are important also because they show that you are aware of how your program works.
 
-When you are working as a member of a team, helpful line comments are cricital to your team members understanding your code and you understanding your team members' code.
-
-When you are working on a large project, helpful line comments are cricital for understanding and remembering what particular parts of your of code do in case you don't remember writing it.
-
-In a work environment, the target audience would be your coworkers who would potentially review your code. In this course, the target audience for your comments will be your classmates. 
+In a work environment, the target audience would be your coworkers who would potentially review your code. In this course, the target audience for your comments will be your classmates and your teacher.
 
 Good comments don't point out obvious things, like this:
 
