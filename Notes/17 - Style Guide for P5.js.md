@@ -11,6 +11,7 @@ Here is a summary of the ones you should be mindful of in this course.
 ### Commas
 
 All commas should have no space before it and one space after it. (This is the same rule as commas in English).
+&nbsp;
 
 ### ✓
 
@@ -30,10 +31,12 @@ function setup() {
   ellipse(mouseX,mouseY,30,30); // same here
 }
 ```
+&nbsp;
  
 ### Operators
 
 The spacing around arithmetic operators (`+`, `-`, `*`, `/`) can vary based on whatever is easiest to read.
+&nbsp;
 
 ### ✓
 
@@ -50,6 +53,7 @@ print(10/5 - 2);
 ```
  
 The operator `!` should not be followed by a space.
+&nbsp;
 
 ### ✓
 
@@ -73,6 +77,7 @@ function draw() {
 ```
  
 All other operators should have one space around it.
+&nbsp;
 
 ### ✓
 
@@ -90,10 +95,12 @@ for (let x=0; x<windowHeight; x+=100) { // the operators need spaces around them
   ellipse(mouseX, mouseY, 30, 30);
 }
 ```
+&nbsp;
 
 ### Parentheses
 
 An opening parenthesis `(` in a function should not have any spaces around it. 
+&nbsp;
 
 ### ✓
 
@@ -119,6 +126,7 @@ function setup( ) { // there should be no space after "("
 ```
 
 An opening parenthesis in a boolean expression *could* have a space before it if there is a keyword (`if`, `while`, `for`) before it. If you use CTRL+B, it will add the space.
+&nbsp;
 
 ### ✓
 
@@ -140,9 +148,11 @@ for (let x = 0; x < windowHeight; x += 100) { // the spacing around "(" is good
 }
 ```
 
+&nbsp;
 ### Curly Braces
 
 When creating a block of code, an **opening curly brace** `{` is placed at the end of a line with a space before it and the **closing curly brace** `}` is placed at the beginning of a new line.
+&nbsp;
 
 #### ✓
 
@@ -178,6 +188,7 @@ function setup()
 ```
 
 When we have a conditional structure with more than one condition, each condition should be on the same line as the closing brace from the previous condition.
+&nbsp;
 
 ### ✓
 
@@ -210,9 +221,12 @@ function draw() {
 }
 ```
 
+&nbsp;
+
 ### Semicolons
 
 All statements end in a semicolon (with one exception, covered next). There is no space before the semicolon.
+&nbsp;
 
 #### ✓
 
@@ -238,6 +252,7 @@ function setup() {
 ```
  
 Exception: In a `for` loop, the last statement (the incrementation) should not end in a semicolon.
+&nbsp;
 
 ### ✓
 
@@ -257,6 +272,7 @@ for (let x = 0; x < windowHeight; x += 100;) { // the last semicolon isn't neede
 ```
 
 If a line contains more than one semicolon (e.g. in a `for` loop), each semicolon should be followed by a space.
+&nbsp;
 
 ### ✓
 
@@ -275,9 +291,12 @@ for (let x = 0;x < windowHeight;x += 100) { // each semicolon needs a space afte
 }
 ```
 
+&nbsp;
+
 ### Indenting
 
 Each new block of code is indicated by curly braces and each line in it is indented two or four spaces inwards. When you have a block within a block, you add another two or four spaces.
+&nbsp;
 
 ### ✓
 
@@ -318,11 +337,13 @@ ellipse(int(random(256)), int(random(256)), 50, 50);  // even more indentation i
 }
 }
 }
-```
- 
+``` 
+&nbsp;
+
 ### Variables and Constants
 
 Give short, descriptive names to variables and write them using camelCase. 
+&nbsp;
 
 ### ✓
 
@@ -354,6 +375,7 @@ let the_height_of_the_blue_rectangle = 100; // too long
 ```
  
 Give short, descriptive names to constants and write them in SCREAMING_SNAKE_CASE.
+&nbsp;
 
 ### ✓
 
@@ -372,6 +394,8 @@ const HALF_WAY = 770;
 const myConstant = 8;  // vague and doesn't use screaming snake case
 ```
  
+&nbsp;
+
 ### Line Comments
 
 Line comments are used to serve as explanations for what your code does and why it works.
@@ -387,6 +411,7 @@ Good comments don't point out obvious things, like this:
 ![](../Images/Stop_Sign.jpg)
 
 ![](../Images/Cat.jpg)
+&nbsp;
 
 ### ✘
 
@@ -397,7 +422,8 @@ function setup() { // sets up the stuff
 }
 ```
  
-Good comments help make your code clear when it's not obvious what is going on. They can help explain your thinking so that someone reading it can understand how it works. Here is an example:
+Good comments help make your code clear when it's not obvious what is going on. They can help explain your thinking so that someone reading it can understand how it works.
+&nbsp;
 
 ### ✓
 
