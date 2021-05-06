@@ -1,4 +1,4 @@
-## Variables and Functions in P5js
+## Variables and Functions in P5.js
 
 When you go to [https://openprocessing.org/sketch/create](https://openprocessing.org/sketch/create), this is the code for the default sketch:
 
