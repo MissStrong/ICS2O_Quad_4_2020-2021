@@ -1,4 +1,4 @@
-## Mouse Movement in Processing
+## Mouse Movement in P5.js
 
 The default sketch on openprocessing.org has the variables `mouseX` and `mouseY` that store the current x- and y-coordinates of the mouse.
 
