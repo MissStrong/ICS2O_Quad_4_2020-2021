@@ -1,4 +1,4 @@
-## RNG in Processing
+## RNG in P5.js
 
 **RNG** stands for random number generator. In Processing, we have a function called `random()` that generates pseudorandom decimal numbers within a specified range. For example `random(50)` generates a random decimal number between 0 and 49.99999999999999 (yes, there are exactly 14 decimal places).
 
