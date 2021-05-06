@@ -1,4 +1,4 @@
-## Loops in Processing
+## Loops in P5js
 
 ### Draw()
 
