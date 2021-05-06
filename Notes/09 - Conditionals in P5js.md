@@ -1,4 +1,4 @@
-## Conditionals in Processing
+## Conditionals in P5.js
 
 A **Boolean variable** is a variable whose value is either  `true` or `false`. The word "Boolean" is named after George Boole, a logician from the 1800s. 
 
