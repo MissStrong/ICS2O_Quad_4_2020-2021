@@ -1,4 +1,4 @@
-## Images in P5js
+## Images in P5.js
 
 To upload an image to use in your program, click on the kebab menu (the vertical ellipsis `⋮`) then *Files*. There, you can drag and drop the image.
 
