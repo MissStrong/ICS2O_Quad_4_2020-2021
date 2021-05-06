@@ -1,4 +1,4 @@
-## Colours in Processing
+## Colours in P5.js
 
 ### RGB Values
 
