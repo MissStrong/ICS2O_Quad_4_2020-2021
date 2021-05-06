@@ -1,4 +1,4 @@
-## Operators in Processing
+## Operators in P5.js
 
 **Operators** are symbols that perform an operation. The operators we've seen so far are:
 
