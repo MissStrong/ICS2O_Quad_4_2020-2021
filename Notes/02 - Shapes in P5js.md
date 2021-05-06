@@ -1,4 +1,4 @@
-## Shapes in Processing
+## Shapes in P5.js
 
 In the default sketch, we have the command `ellipse(mouseX, mouseY, 30, 30)`. The last two arguments represent the size of the ellipse: the width is 30 pixels and the height is also 30 pixels. The first two arguments represent the x- and y-coordinate of the center of the ellipse. Let's look at the coordinate system. 
 
