@@ -1,4 +1,4 @@
-## Key and Mouse Events in Processing
+## Key and Mouse Events in P5.js
 
 So far we've seen the built-in variables `mouseIsPressed` and `keyIsPressed` used to detect mouse and key activity. These detect whether the mouse or a key is currently being held down. If we want to detect a single mouse click or key press, we need the functions `mousePressed()` and `keyPressed()`. These functions are called  **event listeners** or **event handlers**.
 
