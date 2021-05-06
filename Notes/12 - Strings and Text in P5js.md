@@ -1,4 +1,4 @@
-## Strings and Text in Processing
+## Strings and Text in P5.js
 
 In an earlier example, we used a **string**.
 
