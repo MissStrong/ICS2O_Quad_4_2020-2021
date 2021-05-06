@@ -1,4 +1,4 @@
-## Custom Variables in Processing
+## Custom Variables in P5.js
 
 We've come across several built-in variables such as `mouseX` and `windowHeight`, but we have the ability to make our own custom variables.
 
