@@ -58,7 +58,7 @@ function setup() {
   fill(0, 0, 255); // makes the text blue
   textSize(100); // makes the font size 100
   textStyle(ITALIC); // makes the text italicized
-  textAlign(CENTER); 
+  textAlign(CENTER, CENTER); 
   text("Hello!", windowWidth/2, windowHeight/2);
 }
 ```
@@ -92,7 +92,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textFont(comicSans, 100); // we can put the font size here instead of using textSize()
-  textAlign(CENTER);
+  textAlign(CENTER, CENTER);
   text("Hello!", windowWidth/2, windowHeight/2);
 }
 ```
