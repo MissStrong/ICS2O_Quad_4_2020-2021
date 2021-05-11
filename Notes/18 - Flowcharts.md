@@ -2,7 +2,7 @@
 
 **Flowcharts** are diagrams that visually demonstrate an algorithm that involves decision making. Here is an example:
 
-![](../../Images/Pictionary_Flowchart.jpg)
+![](../Images/Pictionary_Flowchart.jpg)
 
 Source: [Doghouse Diaries](http://thedoghousediaries.com/).
 
@@ -12,10 +12,10 @@ There are over 20 standard symbols used in flowcharts, but you only need to know
 
 | Symbol                                       | Description                                                  |
 | -------------------------------------------- | ------------------------------------------------------------ |
-| ![](../../Images/Oval.png)<br>Oval           | A start or end point.                                        |
-| ![](../../Images/Diamond.png)<br>Diamond     | A question being asked.                                      |
-| ![](../../Images/Rectangle.png)<br>Rectangle | An action or process.                                        |
-| ![](../../Images/Arrow.png)<br>Arrow         | Shows what shape to go to next.<br>Can be accompanied by text. |
+| ![](../Images/Oval.png)<br>Oval           | A start or end point.                                        |
+| ![](../Images/Diamond.png)<br>Diamond     | A question being asked.                                      |
+| ![](../Images/Rectangle.png)<br>Rectangle | An action or process.                                        |
+| ![](../Images/Arrow.png)<br>Arrow         | Shows what shape to go to next.<br>Can be accompanied by text. |
 
 ### Creating Flowcharts 
 
