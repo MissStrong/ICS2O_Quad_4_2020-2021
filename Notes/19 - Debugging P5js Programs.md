@@ -28,15 +28,15 @@ funcition setUp() {
 
 The code editor tells us that something is wrong with line 1, 2, and 4. 
 
-On line 1, the editor doesn't recognize the expression`funcition` and thinks a semicolon is missing. It's supposed to say `function`, but it was mispelled. Once we fix the spelling, `function` will turn a different colour, which indicates that the editor knows it is a keyword. The "missing semicolon" message will go away since it is no longer expecting a semicolon now that the keyword is recognized.
+On line 1, the editor doesn't recognize the expression`funcition` and thinks a semicolon is missing. It's supposed to say `function` but it was mispelled. Once we fix the spelling of `function` it will turn a different colour to indicate that the editor knows it is a keyword. The "missing semicolon" message will go away since the editor is no longer expecting a semicolon now that it recognizes the keyword.
 
-Another error message on line 1 is "*unmatched `{`*". That's because we're missing the closing curly brace to match it. We can add one on line 4. Once we do that, the error message on line 4 about  the "unrecoverable syntax error" goes away.
+Another error message on line 1 is "unmatched `{`". That's because we're missing a closing curly brace to match the open curly brace. We can add one on line 4 to indicate the end of the block of code. Once we do that, the error message on line 4 about the "unrecoverable syntax error" goes away since there is no longer an unfinished block of code.
 
-On line 2, the first error message says "*expected `)`*". This is because the editor does not understand why we put two numbers next to each other and assumes that it's because we forgot a bracket. Here's what happens if we add the bracket.
+On line 2, the first error message says "expected `)`". This is because the editor does not understand why we put two numbers next to each other and assumes that it's because we forgot a bracket. Here's what happens if we add the bracket between the numbers `800` and `600`.
 
 ![](../Images/Syntax_Errors_2.png)
 
-Now it's telling us that we're missing a semicolon after the bracket we jsut put in and it doesn't know why there's a closing bracket after the number 600. That's because the original mistake wasn't a missing bracket, it was a missing comma. The error messages aren't perfect and it's sometimes up to us to figure out what's truly causing syntax errors. 
+Now it's telling us that we're missing a semicolon after the bracket we jsut put in and it doesn't know why there's a closing bracket after `600`. That's because the original mistake wasn't a missing bracket – it was a missing comma. Error messages aren't always helpful and it's sometimes up to us to figure out what's actually causing the syntax errors. 
 
 ```js
 function setUp() { // the spelling of "function" was corrected
@@ -50,7 +50,7 @@ function setUp() { // the spelling of "function" was corrected
   
 #### Runtime Errors
 
-A **runtime error** is an error that happens after your program starts running. It causes an error message to be printed to the console, assuming your program doesn't crash. The program stops running as soon as one runtime error happens.
+A **runtime error** happens after your program starts running. It causes an error message to be printed to the console, assuming your program doesn't crash. The program stops running as soon as one runtime error happens.
 
 Runtime errors include:
 
@@ -60,7 +60,7 @@ Runtime errors include:
 * Using a variable or constant where it is out of scope
 * Doing illegal operations, like dividing by zero
 
-Let's run the program from before.
+Let's run the program from before with all the syntax errors fixed.
 
 ```js
 function setUp() { // the spelling of "function" was corrected
@@ -77,7 +77,7 @@ It turns out we miscapitalized `setup()` by putting an uppercase `U` . When we
 
 ![](../Images/Syntax_Errors_5.png)
 
-It turns out we allso miscapitalized `createCanvas()` by putting a lowercase `c` in `Canvas`. This is the last syntax error in our program and once we fix it, the program runs without any errors.
+It turns out we allso miscapitalized `createCanvas()` by putting a lowercase `c` in `Canvas`. This is the last error in our program – once we fix it, the program runs without any errors.
 
 Here is another example with several runtime errors.
 
@@ -101,12 +101,12 @@ A **logic error** happens when there aren't any error messages but your program 
 
 Here are some general strategies to combat logic errors:
 
-* Carefully plan out your program. We can draw flowcharts or write out algorithms in pseudocode to get an idea of what we want our program to do before start typing anything.
+* Carefully plan out your program before writing it. We can draw flowcharts or write out algorithms in pseudocode to get an idea of what we want our program to do before start typing anything.
 * Break down your program into smaller tasks and run your program once you finish each small task. This can help detect errors early and make it easier to single out where the errors are coming from.
 *  **Trace** the program by looking at a program line-by-line in the order that it is executed. You can use  **rubber duck debugging**, which involves explaining your code *verbally* to a rubber duck (or a pet or an any inanimate object of your choice).
 *  Use print statements to help detect what the issues are. We can determine which lines are working by strategically placing helpful print statements.
 
-Here is an example of a program with two logic errors on it.
+Here is an example of a program with two logic errors in it.
 
 ```js
 const SPACE_KEY = 32 // Retrieved from http://keycode.info
