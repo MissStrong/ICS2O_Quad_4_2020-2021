@@ -106,7 +106,7 @@ Here are some general strategies to combat logic errors:
 *  **Trace** the program by looking at a program line-by-line in the order that it is executed. You can use  **rubber duck debugging**, which involves explaining your code *verbally* to a rubber duck (or a pet or an any inanimate object of your choice).
 *  Use print statements to help detect what the issues are. We can determine which lines are working by strategically placing helpful print statements.
 
-Here is an example of a program with two logic errors in it.
+Here is an example of a program with logic errors in it.
 
 ```js
 const SPACE_KEY = 32 // Retrieved from http://keycode.info
@@ -117,7 +117,7 @@ function setup() {
 }
 
 function keyPressed() {
-  if (keyCode = SPACE_KEY) // Spacebar makes a random circle appear
+  if (keyCode = SPACE_KEY) // Spacebar makes a circle appear
     fill(int(random(256)), int(random(256)), int(random(256))); // the colour is random
     ellipse(int(random(801)), int(random(601)), 100, 100); // the location is random
 }
@@ -126,6 +126,8 @@ function keyPressed() {
 ![](../Images/Buggy_Program_Fixed.png)
 
 When we run the program, coloured circles appear on the screen when we press any key, but we only want them to appear when we press the spacebar. That suggests that something could be wrong in the `keyPressed()` function and sure enough, the issue is that we put `=` instead of `==` in the conditional statement. 
+
+Confusing `=` and `==` is one of the most common bugs in programming. Even the most experienced programmers occasionally make this mistake.
 
 ```js
 const SPACE_KEY = 32 
@@ -146,7 +148,7 @@ Now when we mash the keyboard, this is what the output is like.
 
 ![](../Images/Buggy_Program.png)
 
-Something is still wrong since the program is supposed to draw a new circle in a new colour each time. This suggests that there is something wrong with the block of code that is executed when we press the spacebar. It turns out there is a missing set of curly braces for the conditional statement in `keyPressed()` and so this is how the program is actually being interpreted:
+Something is still wrong since the colour is supposed to change each time and only the spacebar should make a circle apppear. This suggests that there is something wrong with the block of code that is executed when we press the spacebar. It seems as though the `ellipse()` function is called no matter what key is pressed and that is the source of the issue. Upon further inspection, there is a missing set of curly braces for the conditional statement in `keyPressed()` and so this is how the program is actually being interpreted:
 
 ```js
 function keyPressed() {
@@ -157,8 +159,7 @@ function keyPressed() {
   ellipse(int(random(801)), int(random(601)) 100, 100); // draws a circle at a random location
 }
 ```
-
-To fix this logic error, we can place the curly braces to indicate the correct block of code that is supposed to run when we press the spacebar.
+What we actually want is for `ellipse()` to be called only when the spacebar is pressed. We can fix this logic error by placing curly braces to indicate the correct block of code that is supposed to run when we press the spacebar.
 
 ```js
 function keyPressed() {
@@ -179,7 +180,7 @@ Now, suppose we are trying to make a program that creates this sketch:
 
 ![](../Images/Circles_Incorrect_1.png)
 
-Adding a print statement to our code can help determine which lines of code are being executed and in what order.
+Adding print statements to our code can help determine us which lines of code are being executed and when.
 
 ```js
 function setup() {
@@ -202,7 +203,7 @@ function setup() {
 
 ![](../Images/Circles_Incorrect_2.png)
 
-Now we can more clearly see that the issue is that the value of `y` stays at `250` after the *while* loop from lines 9 to 13 has finished drawing one column of circles. The value of `y` needs to be reset to zero after each column so that the next column can show up.
+From the results in the console, we can more clearly see that the issue is that the value of `y` stays at `250` after the *while* loop from lines 9 to 13 has finished drawing one column of circles. The value of `y` needs to be reset to zero after each column so that the next column can show up.
 
 ```js
 function setup() {
@@ -223,6 +224,6 @@ function setup() {
 }
 ```  
 
-This resolved
+This resolved the issue and now all the circles show up.
 
 ![](../Images/Circles_Correct_2.png)
