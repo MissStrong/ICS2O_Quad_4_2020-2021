@@ -73,7 +73,7 @@ Here's what the program looks like now. It does the same thing as before but now
 let circle = { // circle is an object 
   coordinate: 0,
   diameter: 20
-};
+}
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
