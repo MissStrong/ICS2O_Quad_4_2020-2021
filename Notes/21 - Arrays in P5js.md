@@ -28,7 +28,7 @@ print(random(numbers)); // 1/2 chance of 30, 1/3 chance of 20, 1/6 chance of 10
 
 ### Accessing Items in an Array
 
-Each item in an array is assigned an **index**. The index tells us which position the item is at. The first position is index 0, the second position is index 1, the third position is index 2, and so on.
+Each item in an array is assigned an **index**. The index tells us which position the item is at. The first position is index 0, the second position is index 1, the third position is index 2, and so on. The plural of index is **indices** or **indexes**.
 
 **In computer science, we often start counting at 0 instead of 1**. Being "off by one" is a common phenomenon when programming.
 
