@@ -2,10 +2,10 @@
 
 Suppose we want to generate a random multiple of 10 between 10 and 50.
 
-One solution is to generate a random integer between 0 and 5, then multiply that result by 10:
+One solution is to generate a random integer between 1 and 5, then multiply that result by 10:
 
 ```js
-print(10*int(random(1, 6))); // prints a random multiple of 10 between 0 and 50
+print(10*int(random(1, 6))); // prints a random multiple of 10 between 1 and 50
 ```
 
 Another solution is to use an **array**, which is a special type of object. An array is a data structure that stores a list of values called **items** or **elements**. If we call `random()` and give it an **array** as argument, it will generate a random item from the array.
@@ -53,7 +53,7 @@ We can find the index of an array using the `indexOf`() **method**. A method is 
 ```js
 let numbers = [10, 20, 30, 40, 50]; 
 print(numbers.indexOf(30))  // prints 2
-print(numbers.indexOf(50))  // prints 5
+print(numbers.indexOf(50))  // prints 4
 print(numbers.indexOf(60))  // prints -1 (which means it's not in the array)
 ```
 
@@ -108,11 +108,11 @@ let numCircles = 20; // there will be 20 circles altogether
 function setup() {
   createCanvas(500, 500);
   for (let index = 0; index < numCircles; index++) { // makes 20 random circles
-		let circle = {
-		  x: random(int(500)), // random x and y coordinates
-			y: random(int(500)),
-			diameter: random([25, 50, 75]) // random diameter among these three numbers
-		}
+    let circle = {
+      x: random(int(500)), // random x and y coordinates
+      y: random(int(500)),
+      diameter: random([25, 50, 75]) // random diameter among these three numbers
+    }
     circles.push(circle); // puts the circle into the array
   }
 }
@@ -120,7 +120,7 @@ function setup() {
 function draw() {
   background(100);
   for (let index = 0; index < numCircles; index++) { // goes through each of the 20 circles
-		let circle = circles[index];
+  let circle = circles[index];
     ellipse(circle.x, circle.y, circle.diameter, circle.diameter); 
     circle.y++; // increases the y coordinate so that it looks like the circle is falling
     if (circle.y > 500) { // when the circle falls off the screen, it goes back to the top
