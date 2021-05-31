@@ -20,10 +20,10 @@ When we want to create a function that has an output, we use the keyword `return
 
 ```js
 function randomCoordinate() { // custom function that generates a coordinate object
-	let coordinate = {
-	  x: int(random(width + 1)),
-		y: int(random(height + 1))
-	}
+  let coordinate = {
+    x: int(random(width + 1)),
+    y: int(random(height + 1))
+  }
   return coordinate;
 }
 ```
@@ -34,21 +34,21 @@ The program below draws lines at random, which have negative, zero, or positive 
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	background(100);
+  createCanvas(windowWidth, windowHeight);
+  background(100);
 }
 
 function draw() {
-	let c1 = randomCoordinate(); // calling our custom function
-	let c2 = randomCoordinate();
-	line(c1.x, c1.y, c2.x, c2.y); // draws a line using our random coordinates
+  let c1 = randomCoordinate(); // calling our custom function
+  let c2 = randomCoordinate();
+  line(c1.x, c1.y, c2.x, c2.y); // draws a line using our random coordinates
 }
 
 function randomCoordinate() { // custom function
-	let coordinate = {
-	  x: int(random(width + 1)),
-		y: int(random(height + 1))
-	}
+  let coordinate = {
+    x: int(random(width + 1)),
+    y: int(random(height + 1))
+  }
   return coordinate;
 }
 ```
@@ -59,29 +59,29 @@ We can create a function that calculates the slope of a line and we can use that
 
 ```js
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	background(100);
+  createCanvas(windowWidth, windowHeight);
+  background(100);
 }
 
 function draw() {
-	let c1 = randomCoordinate();
-	let c2 = randomCoordinate();
-	let m = slope(c1.x, c1.y, c2.x, c2.y);
-	if (0 < m) { 
-		line(c1.x, c1.y, c2.x, c2.y); // draws the line only if the slope is positive
-	}
+  let c1 = randomCoordinate();
+  let c2 = randomCoordinate();
+  let m = slope(c1.x, c1.y, c2.x, c2.y);
+  if (0 < m) {
+    line(c1.x, c1.y, c2.x, c2.y); // draws the line only if the slope is positive
+  }
 }
 
 function randomCoordinate() { // custom function with no parameters
-	let coordinate = {
-	  x: int(random(windowWidth + 1)),
-		y: int(random(windowHeight + 1))
-	}
+  let coordinate = {
+    x: int(random(windowWidth + 1)),
+    y: int(random(windowHeight + 1))
+  }
   return coordinate;
 }
 
 function slope(x1, y1, x2, y2) { // custom function with 4 parameters
-	return (y1 - y2) / (x2 - x1); // the numerator is "backwards" because of direction of the y-axis
+  return (y1 - y2) / (x2 - x1); // the numerator is "backwards" because of direction of the y-axis
 }
 ```
 
