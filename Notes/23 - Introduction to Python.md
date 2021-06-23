@@ -120,6 +120,8 @@ for item in groceries:
 
 ### Functions
 
+We can make custom functions using the keyword `def` (short for "define").
+
 ```python
 def is_square_number(number):
   sqrt = number ** 0.5  # getting the square root is the same as raising it to the power of half
@@ -174,4 +176,4 @@ while True:
 
 The shapes above look like this:
 
-![](../../Images/Shapes.png)
+![](../Images/Shapes.png)
