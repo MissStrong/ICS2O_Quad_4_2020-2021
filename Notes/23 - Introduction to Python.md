@@ -55,7 +55,7 @@ else:
 
 ### Loops
 
-We can use **while** loops to make a code block run indefinitely.
+We can use **while loops** to make a code block run indefinitely.
 
 ```python
 from random import randint # we can't use the random integer function unless we import the random library first
@@ -73,7 +73,7 @@ while True:  # infinite loop that only stops when you reach a break
     print("Nope. It's higher.")
 ```
 
-**For** loops look different in Python than in Javascript.
+**For loops** look different in Python than in Javascript.
 
 ```python
 for number in range(1, 11):  # range generates a list of integers in the specified range
@@ -108,6 +108,16 @@ groceries.sort()
 print(groceries) # prints ["banana", bread", "cereal", "ice cream", "potato"]
 ```
 
+We can use **for loops** to go through the items in a list one by one.
+
+```
+groceries = ["bread", "milk", "potato"]
+
+for item in groceries:
+  print(item)  # prints "bread", "milk", "potatoes" on separate lines
+
+```
+
 ### Functions
 
 ```python
@@ -136,7 +146,7 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 # Initializing colours (using RGB values) so we can use them later
-white = (255, 255, 255)  # this is a tuples
+white = (255, 255, 255)  # this is a tuple
 black = (0, 0, 0)
 red = (255, 0, 0)
 green = (0, 255, 0)
@@ -161,3 +171,7 @@ pygame.draw.line(screen, black, (700, 100), (700, 500), 30)
 while True:
   pygame.display.update()
 ```
+
+The shapes above look like this:
+
+![](../../Images/Shapes.png)
