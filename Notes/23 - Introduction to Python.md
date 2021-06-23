@@ -174,6 +174,6 @@ while True:
   pygame.display.update()
 ```
 
-The shapes above look like this:
+The program above look like this:
 
 ![](../Images/Shapes.png)
